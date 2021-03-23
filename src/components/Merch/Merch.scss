@@ -1,0 +1,43 @@
+.merch {
+  max-width: 1240px;
+  margin: 0 auto;
+
+  padding: 120px 0;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  //flex-wrap: wrap;
+
+  &__left {
+    z-index: 10;
+    max-width: 663px;
+    p {
+      font-size: 64px;
+      line-height: 77px;
+      color: #FFFFFF;
+
+      margin-bottom: 23px;
+    }
+  }
+
+  &__right {
+    position: relative;
+
+    z-index: 5;
+
+    margin-left: -10%;
+    img {
+      &:first-child {
+        max-width: 100%;
+      }
+      &:last-child {
+        max-width: 100%;
+        position: absolute;
+        bottom: -15%;
+        right: -15%;
+      }
+    }
+  }
+}
