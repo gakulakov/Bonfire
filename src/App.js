@@ -15,15 +15,15 @@ function App() {
                 <Header/>
                 <MainBlock/>
             </div>
-            <Creators />
-            <Profits />
+            <Creators/>
+            <Profits/>
             <div className={'black-container'}>
-                <Unlock />
+                <Unlock/>
             </div>
-            <Customized />
+            <Customized/>
             <div className={'gray-container'}>
-                <Merch />
-                <Footer />
+                <Merch/>
+                <Footer/>
             </div>
         </div>
     );

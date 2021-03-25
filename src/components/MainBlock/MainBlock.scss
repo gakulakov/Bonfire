@@ -1,7 +1,7 @@
 .main-block {
   max-width: 1240px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px 20px;
 
 
   &__text {
@@ -44,6 +44,18 @@
     justify-content: flex-end;
     padding-top: 100px;
   }
+
+  @media (max-width: 1000px) {
+    &__text {
+      font-size: 100px;
+    }
+
+    &__cards {
+      //flex-direction: column;
+      //align-items: center;
+      justify-content: center;
+    }
+  }
 }
 
 .ticked {
@@ -68,9 +80,6 @@
     border: 4px solid #F49879;
     border-radius: 25px 0 0 25px;
     border-right: 1px dashed #545454;
-
-
-
   }
 
   &__flawer {
@@ -174,6 +183,25 @@
 
   &:hover &__right {
     transform: translateX(100px) rotate(10deg);
+  }
+
+  @media (max-width: 1000px) {
+    &__left {
+      border: 4px solid #F49879;
+      border-radius: 25px 25px 0 0;
+      border-bottom: 1px dashed #545454;
+      align-self: normal;
+    }
+    &__right {
+      border: 4px solid #F49879;
+      border-radius: 0 0 25px 25px;
+      border-top: 1px dashed #545454;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    max-width: 100%;
+
   }
 }
 

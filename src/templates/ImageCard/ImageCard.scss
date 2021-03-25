@@ -2,9 +2,12 @@
   transition: all 0.5s ease;
   cursor: pointer;
 
-  width: 221px;
+  max-width: 221px;
   height: 368px;
   border-radius: 30px;
+  margin: 20px 20px;
+
+  //flex: 0 1 50%;
 
 
 

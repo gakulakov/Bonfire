@@ -11,8 +11,7 @@ export const Merch = () => {
                 <Button value={'Unlock access'.toUpperCase()} style={{letterSpacing: 2.1}} />
             </div>
             <div className={'merch__right'}>
-                <img src="../../assets/images/merch/1.png" alt="1"/>
-                <img src="../../assets/images/merch/2.svg" alt="2"/>
+                <img src="../../assets/images/merch/3.png" alt="3"/>
             </div>
         </div>
     )
