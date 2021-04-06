@@ -7,6 +7,7 @@ import {Unlock} from "./components/Unlock/Unlock";
 import {Customized} from "./components/Customized/Customized";
 import {Merch} from "./components/Merch/Merch";
 import {Footer} from "./components/Footer/Footer";
+import {Button} from "./templates/Button/Button";
 
 function App() {
     return (
